@@ -1,0 +1,15 @@
+plugins {
+    id 'java'
+}
+
+group 'com.github.ioloolo'
+version '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.seleniumhq.selenium:selenium-java:4.5.0'
+    implementation 'com.mashape.unirest:unirest-java:1.4.9'
+}
